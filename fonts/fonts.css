@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url(./FiraSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url(./FiraSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url(./FiraSans-ExtraBold.ttf);
+    font-weight: 800;
+}

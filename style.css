@@ -1,4 +1,4 @@
-/* Подключи шрифт тут */
+@import url(./fonts/fonts.css);
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans';
     font-size: 14px;
     color: white;
     background-color: black;
@@ -20,7 +20,7 @@ body {
     padding-bottom: 120px;
     margin: 0 auto;
 
-    /* Напиши ограничения тут */
+    max-width: 1920px;
 }
 
 .header {
@@ -133,4 +133,17 @@ body {
     gap: 50px;
 }
 
-/* Напиши код ниже */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+    }
+
+    .footer-nav li {
+        margin-bottom: 10px;
+    }
+}
